@@ -28,7 +28,7 @@ $document->setTitle( $curtitle );
 
 $app = JFactory::getApplication();
 $menu = $app->getMenu();
-
+//var_dump($view);
 if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->alias == 'estate') {
 	require_once(JPATH_BASE.'/components/com_objcreate/helpers/objcreatefilterlisthelper.php');
 	$filtr = new  ObjCreateFilterListHelper();
@@ -294,7 +294,7 @@ elseif ( stristr($_SERVER['HTTP_USER_AGENT'], 'MSIE 10.0') ) echo 'ie10';
                             <!--<jdoc:include type="message" />-->
                             <jdoc:include type="modules" name="maphead" />
                             <jdoc:include type="modules" name="entertainment" style="xhtml" />
-                            <?php if($view<>"variant" && $view<>"search" && $view<>"gallery" && $desc=="" && $this->countModules('desc')){?>
+                            <?php if($view<>"variant" && $view<>"search" && $view<>"gallery" && $desc=="" && $this->countModules('desc')&& $view<>"article"){?>
                             <div class="desc">
                                 <jdoc:include type="modules" name="desc" />
                             </div>
