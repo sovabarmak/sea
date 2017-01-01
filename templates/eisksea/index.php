@@ -28,8 +28,8 @@ $document->setTitle( $curtitle );
 
 $app = JFactory::getApplication();
 $menu = $app->getMenu();
-//var_dump($menu->getActive()->id);die();
-if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->id = 103) {
+
+if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->alias == 'estate') {
 	require_once(JPATH_BASE.'/components/com_objcreate/helpers/objcreatefilterlisthelper.php');
 	$filtr = new  ObjCreateFilterListHelper();
 	$cats = $filtr->getOptionsLists('category');
@@ -142,7 +142,7 @@ elseif ( stristr($_SERVER['HTTP_USER_AGENT'], 'MSIE 10.0') ) echo 'ie10';
         <?php endif; ?>
 		<?php
 		
-		if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->id = 103) {
+		if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->alias == 'estate') {
 		?>
 			<div id="form-wrapp" class="content">
 			<form id="objcreate-filter-bar" action="<?php echo JRoute::_('index.php?option=com_objcreate&view=search'); ?>" method="post">       
