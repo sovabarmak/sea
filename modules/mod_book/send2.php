@@ -22,6 +22,7 @@ if(isset($_POST['name']) && $_POST["phone"] && $_POST['email']) {
 			if (isset($_POST['email']) && $_POST['email'] <> '') $text .= '; <br/>'. '<strong>E-mail:</strong> '.$_POST["email"];
 			$text .='; <br/>'.'<strong>Общее количество человек:</strong> '.$_POST["amount"];
 			if (isset($_POST['amount-children']) && $_POST['amount-children'] <> '') $text .= '; <br/>'.'<strong>Количество детей и их возраст:</strong> '.$_POST["amount-children"];
+			if (isset($_POST['place_from']) && $_POST['place_from'] <> '') $text .= '; <br/>'.'<strong>Откуда Вы приезжаете:</strong> '.$_POST["place_from"];
 			$text .= '; <br/>'.'<strong>Дата приезда:</strong> '.$_POST["date_from"].'; <br/>'.
 			'<strong>Дата отъезда:</strong> '.$_POST["date_to"];
 			if (isset($_POST['message']) && $_POST['message'] <> '') $text .=  '; <br/>'.'<strong>Вопрос/комментарий:</strong> '.$_POST["message"];
