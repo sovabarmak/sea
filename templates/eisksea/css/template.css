@@ -3165,11 +3165,11 @@ li.pagenav-next:hover {
 }
 
 .contact.beeline {
-    background: url(../images/beeline.png) no-repeat 0 50%;
+    background: url(/templates/eisksea/images/ph3.png) no-repeat 0 50%;
 }
 
 .contact.megafon {
-    background: url(../images/megafon.png) no-repeat 0 50%;
+    background: url(/templates/eisksea/images/ph4.png) no-repeat 0 50%;
 }
 
 .contact.tele2 {

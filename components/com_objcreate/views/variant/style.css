@@ -1,0 +1,55 @@
+.item-page .prev_next{width:100%;float:left;}
+.item-page .prev_next .button{color:#666666;font-weight: bold;font-family: 'Comic Sans MS', Verdana, 'Times New Roman';font-size: 13px;cursor: pointer;text-transform: uppercase;}
+.item-page .prev_next a{height:28px;line-height: 28px;}
+#content .item-page .prev_next img{float: none;margin:0;}
+#but1{padding:0 60px 0 0;}
+#but2{padding:0 0 0 60px;}
+#objcreate-content .clear {clear: both;background: none;}
+#objcreate-content .bott {height: 4px;background:url(/images/bott.png) repeat-x;}
+.item-page .clear {height: 18px;}
+.objcreate-detail .item-page .big_img {float: left;width: 719px;height: 479px;position: relative;text-align: center;}
+#content .item-page .big_img img, .objcreate-detail .item-page .big_img img {float:none;border: #fdd899 3px solid;}
+.item-page .location_info {float: right;width: 253px;}
+.item-page .img_carousel ul {display: block;margin: 0 -6px 0 0;padding: 0;}
+.item-page .img_carousel ul li {display: block;float: left;list-style: none;width: 146px;height: 98px;margin-right: 7px;}
+.item-page .img_carousel  ul li.hide {display: none;}
+.item-page .img_carousel img {width: 142px;}
+.item-page .img_carousel .inner ul li div {width: 142px;height: 94px;overflow: hidden;border: #fdd899 2px solid;}
+.item-page .butts_block {float: right;}
+.item-page .butts_block a {float: left;height: 28px;padding: 0 30px;line-height: 28px;margin-left: 8px;}
+#objcreate-filter-bar ul{padding: 0;margin: 0;}
+#objcreate-filter-bar ul li {display: inline-block;list-style: none;}
+
+#map_canvas {float: left;width: 640px;height: 430px;}
+.numbers-list {float: right;width: 155px;height: 479px;}
+.number_list_butt {float: right;width: 155px;}
+#cena{text-align: center;font-size: 20px;display: none;color: red;}
+#cena2{text-align: center;font-size: 20px;display: none;clear:left;}
+#cena3{margin:0 !important;display: none;text-align: center;}
+.row-cont{width: inherit;margin: 0;line-height:150%;}
+.row-cont>div{text-align:center;}
+.col-cont{width: 40%;float: left;padding-right: 15px;padding-left: 15px;}
+.col-bron{width: 50%;float:left;padding-right: 15px;padding-left: 15px;}
+.row-cont button{margin-top:100px;}
+
+.img_carousel {position: relative;padding: 0 23px;margin: 0 -23px;clear: both;}
+.img_carousel .inner {overflow: hidden;}
+.img_carousel ul {position: relative;left: 0;}
+.img_carousel .img_carousel_prev {display:block;position: absolute;left: 0px; top: 22px;height: 57px;width: 17px;background: url(../images/prev.png) 0 0 no-repeat;cursor: pointer;}
+.img_carousel .img_carousel_next {display:block;position: absolute;right: 0px; top: 22px;height: 57px;width: 17px;background: url(../images/next.png) 0 0 no-repeat;cursor: pointer;}
+.img_carousel .img_carousel_prev:hover , .img_carousel .img_carousel_next:hover {background-position: 0 -57px;}
+
+.selectbox {vertical-align: middle;cursor: pointer;margin-right: 14px;}
+.selectbox .select {width: 214px;height: 31px;padding: 0 35px 0 9px;font: 14px/30px Arial, Tahoma, sans-serif;color: #333;text-shadow: 1px 1px #FFF;background: white;border: 1px solid #e5eef8;border-radius: 4px;box-shadow: 1px 1px #f1f4f4, -1px -1 #f1f4f4;}
+.selectbox .select:hover {background: #f5f5f5;}
+.selectbox .select:active {background: #f5f5f5;box-shadow: inset 0px 1px 4px rgba(0,0,0,0.1);}
+.selectbox .select .text {display: block;width: 100%;white-space: nowrap;overflow: hidden;font-family: Tahoma;font-size: 15px;}
+.selectbox .trigger {position: absolute;top: 4px;right: 5px;width: 21px;height: 22px;}
+.selectbox .trigger .arrow {position: absolute;top: 0px;right: 0px;width: 100%;height: 100%;overflow: hidden;background: url(../images/select_trigger_orange.png) 0 0 no-repeat;}
+#objcreate-filter-bar ul li:nth-child(2n+2) .selectbox .select .trigger .arrow {background: url(../images/select_trigger_green.png) 0 0 no-repeat;}
+#objcreate-filter-bar ul li:nth-child(3n+3) .selectbox .select .trigger .arrow {background: url(../images/select_trigger_blue.png) 0 0 no-repeat;}
+#objcreate-filter-bar .selectbox ul.dropdown {top: 33px;width: 247px;margin: 0;padding: 4px 0;background: #FFF;border: 1px solid #C6CBD0;border-radius: 4px;box-shadow: 0 2px 10px rgba(0,0,0,0.2);font: 14px/18px Arial, Tahoma, sans-serif;}
+#objcreate-filter-bar .selectbox li {display: block;padding: 5px 10px 6px;color: #231F20;float:none;}
+#objcreate-filter-bar .selectbox li:hover, #objcreate-filter-bar .selectbox li.selected {background: #08C;color: #FFF;}
+#objcreate-filter-bar .selectbox li.disabled {color: #AAA;}
+#objcreate-filter-bar .selectbox li.disabled:hover {background: none;}
