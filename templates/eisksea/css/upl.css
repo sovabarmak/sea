@@ -237,4 +237,4 @@ top: 0;
 left: 0;
 }
 #agree-row label{width:auto}
-#terms-agree{top:10px;left:10px}
+#terms-agree{top:10px;left:10px;position:relative}
