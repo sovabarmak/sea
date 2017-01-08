@@ -1,5 +1,21 @@
+#modbook-send.disabled {
+  background: gray none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: none;
+  color: darkgray;
+  text-shadow: none;
+}
 #form-wrapp{margin-top:30px;}
+#form-wrapp.estate{margin-top:0}
+#form-wrapp #objcreate-filter-bar{margin-bottom:0}
 h2.gal-zag{margin:0;color:#fff;font-size:11px}
+.book #agree-row label{display:inline}
+.book #terms-agree {
+    position: relative;
+    right: 0px;
+    top: 3px;
+	margin-right:5px
+}
 body {
     min-width: 1024px;
     margin: 0px;
@@ -53,7 +69,7 @@ padding-right: 40px;
 .caption2 ul.menu li {
     position: relative;
     float: left;
-    padding: 0px 16px;
+    padding: 0px 15px;
     border-left: 1px solid #fbe4bf;
     height: 36px;
     line-height: 36px;
@@ -3086,7 +3102,7 @@ li.pagenav-next:hover {
     height: 28px;
     letter-spacing: 1.9px;
     line-height: 26px;
-    margin: -10px 0 25px -35px;
+    margin: -10px 0 25px 0;
     text-transform: uppercase;
     width: inherit;
     background-image: url("/templates/eisksea/images/tit_c_oran.png");
@@ -3166,7 +3182,7 @@ li.pagenav-next:hover {
 }
 
 .contact.beeline {
-    background: url(/templates/eisksea/images/ph3.png) no-repeat 0 50%;
+    background: url(/templates/eisksea/images/ph3_2.png) no-repeat 0 50%;
 }
 
 .contact.megafon {

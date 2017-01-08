@@ -32,7 +32,7 @@ if(isset($_POST['name']) && $_POST["phone"] && $_POST['email']) {
 			if(@mail($to, $subject, $text, $headers)) { echo "Ваша заявка принята!"; } else { echo "Заявку отправить не удалось!"; }
 		/*}
 	}*/
-} else { echo "Restricted access";}
+} else { echo "Заполните все поля";}
 //captcha row for template 
 /*
 <div class="row"><label for="cap">Введите код с картинки</label><img src="modules/mod_book/captcha.php" id="cap" onclick="this.src = 'modules/mod_book/captcha.php?' + Math.random();" /><input type="text" name="cap" id="cap" class="txt required" tabindex="9"><div class="error-box"></div></div>

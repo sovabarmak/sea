@@ -1,0 +1,3 @@
+.map_btn {position: absolute; z-index:100; right:16px; top:16px; width:36px; height:36px; }
+.map_btn.google { background: transparent url(gmaps.png) no-repeat; }
+.map_btn.yandex { background: transparent url(ymaps.png) no-repeat; }

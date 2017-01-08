@@ -1,3 +1,4 @@
+#content .item-page .butts_block.in-cat-butts a.more{margin-right:18px}
 #objcreate-content .clear {clear: both;background: none;}
 #objcreate-content .bott {height: 4px;background:url(/images/bott.png) repeat-x;}
 .item-page .clear {height: 18px;}
@@ -50,7 +51,7 @@
 #content .item-page .prev_next img{float: none;margin:0;}
 #but1{padding:0 60px 0 0;}
 #but2{padding:0 0 0 60px;}
-#content .zag{margin: -26px -37px 26px!important}
+
 #content .zag.zagg:before{background-image: url("/templates/eisksea/images/tit_c_oran2.png");}
 #content .zag .zag2{display:inline-block; background-image: url("/templates/eisksea/images/tit_c_oran2.png");padding-right: 10px;min-width:135px;}
 #content .zag .zag3{display:inline-block; float: right; padding: 0 25px;text-shadow: 0px -1px 0px #9a0a07;background: #fe3737;background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlMzczNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiMzA5MDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background: -moz-linear-gradient(top,  #fe3737 0%, #b30909 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe3737), color-stop(100%,#b30909));background: -webkit-linear-gradient(top,  #fe3737 0%,#b30909 100%);background: -o-linear-gradient(top,  #fe3737 0%,#b30909 100%);background: -ms-linear-gradient(top,  #fe3737 0%,#b30909 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe3737', endColorstr='#b30909',GradientType=0 );}
@@ -90,7 +91,7 @@ text-shadow: 0 -1px 0 #248A2B;margin-bottom: 10px;position: relative;z-index: 3;
 #content .item-page .block_info .inside .label{font-weight: bold;}
 #content .item-page .butts_block{margin: 0, 0, 14px, -10px;}
 #content .item-page .butts_block a{color: white;font-family: 'Comic Sans MS',Verdana,'Times New Roman';font-size: 13px;font-weight: bold;line-height: 26px;text-transform: uppercase;text-decoration: none;}
-#content .item-page .butts_block a.my_selection{width: inherit;height: inherit;line-height: 27px;display: normal;background: url('/templates/eisksea/images/category_butt_bg_oran.png') left bottom repeat-x;text-shadow: 0px -1px 0px #ca6d02;color: white;list-style:  disc;list-style-position: inside;color: white;font-weight: bold;font-family: 'Comic Sans MS', Verdana, 'Times New Roman';font-size: 13px;text-decoration: none;outline: 0px;margin: -1px;padding: 0 19px;}
+#content .item-page .butts_block a.my_selection{width: inherit;height: inherit;line-height: 27px;display: normal;background: url('/templates/eisksea/images/category_butt_bg_oran.png') left bottom repeat-x;text-shadow: 0px -1px 0px #ca6d02;color: white;list-style:  disc;list-style-position: inside;color: white;font-weight: bold;font-family: Verdana, 'Times New Roman';font-size: 13px;text-decoration: none;outline: 0px;margin: -1px;padding: 0 19px;}
 #content .item-page .butts_block a.more{width: inherit;height: inherit;font-size: 13px;line-height: 27px;display: normal;background: url('/templates/eisksea/images/menu_bg_first.png') left bottom repeat-x;text-shadow: 0px -1px 0px #9a0a07;color: white;list-style:  disc;list-style-position: inside;color: white;font-weight: bold;font-family: Verdana, 'Times New Roman';text-decoration: none;outline: 0px;margin-top: -1px;padding: 0 19px;}
 #objcreate-content .item-page .block_info .inside p{text-indent: 0;}
 #content .objcreate-detail .head{background-image: url("/templates/eisksea/images/tit_c_oran.png");border-left: 1px solid #c07c02;border-right: 1px solid #c07c02;text-shadow: 0 -1px 0 #d3911e;font-weight: bold;font-family: 'Comic Sans MS', Verdana, 'Times New Roman';font-size: 13px;line-height: 28px;}
@@ -143,4 +144,4 @@ text-shadow: 0 -1px 0 #248A2B;margin-bottom: 10px;position: relative;z-index: 3;
 #objcreate-content .back_butt{clear: both;height: 30px;margin: 20px 0;}
 
 #cena4 .phone1{background-image:url('/templates/eisksea/images/ph1.png'); background-size: auto 17px; background-repeat:no-repeat; background-position:-4px center}
-#cena4 .contact.beeline,#cena4 .contact.megafon{background-size: auto 17px; padding-left:42px;background}
+#cena4 .contact.beeline,#cena4 .contact.megafon{background-size: auto 17px; padding-left:42px;margin-left:22px}

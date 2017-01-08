@@ -140,45 +140,7 @@ elseif ( stristr($_SERVER['HTTP_USER_AGENT'], 'MSIE 10.0') ) echo 'ie10';
             <jdoc:include type="modules" name="categorys" style="xhtml" />
         </div>
         <?php endif; ?>
-		<?php
-		
-		if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->alias == 'estate') {
-		?>
-			<div id="form-wrapp" class="content">
-			<form id="objcreate-filter-bar" action="<?php echo JRoute::_('index.php?option=com_objcreate&view=search'); ?>" method="post">       
-            <div class="filter-select"> 
-                <ul>
-                    <li>
-                        <select name="filter_catid" class="select">
-                            <option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_CATEGORY');?>...</option>
-                            <?php echo JHtml::_('select.options', $cats, 'value', 'text');?>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="filter_districtid" class="select">
-                            <option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_DISTRICT');?>...</option>
-                            <?php echo JHtml::_('select.options', $districts, 'value', 'text');?>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="filter_distanceid" class="select">
-                            <option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_DISTANCE');?>...</option>
-                            <?php echo JHtml::_('select.options', $distances, 'value', 'text');?>
-                        </select>            
-                    </li>
-					<li>
-						<input placeholder="Цена от:" name="min" class="price2" type="text">
-						<input placeholder="Цена до:" name="max" class="price2" type="text">
-						<input class="date_bron" id="date_start" placeholder="Дата от:" name="date_from" type="text">
-						<input class="date_bron" id="date_end" placeholder="Дата до:" name="date_to" type="text">
-					</li>
-				</ul>
-			</div>
-			<button class="button fa fa-search" type="submit" name="submit"></button>
-							
-		</form>
-		</div>
-		<?php } ?>
+
 		
         <?php if($this->countModules('banner')) : ?>
         <div class="baner">
@@ -196,6 +158,46 @@ elseif ( stristr($_SERVER['HTTP_USER_AGENT'], 'MSIE 10.0') ) echo 'ie10';
                         <jdoc:include type="modules" name="position-2" style="xhtml" />
                     </div>
                     <? endif; ?>
+					<?php
+		
+					if ($menu->getActive() == $menu->getDefault() || $menu->getActive()->alias == 'estate') {
+						$page_class=$menu->getActive()->alias;
+					?>
+						<div id="form-wrapp" class="content <?php echo $page_class?>">
+						<form id="objcreate-filter-bar" action="/estate/search-n-order.html?view=search" method="post">       
+						<div class="filter-select"> 
+							<ul>
+								<li>
+									<select name="filter_catid" class="select">
+										<option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_CATEGORY');?>...</option>
+										<?php echo JHtml::_('select.options', $cats, 'value', 'text');?>
+									</select>
+								</li>
+								<li>
+									<select name="filter_districtid" class="select">
+										<option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_DISTRICT');?>...</option>
+										<?php echo JHtml::_('select.options', $districts, 'value', 'text');?>
+									</select>
+								</li>
+								<li>
+									<select name="filter_distanceid" class="select">
+										<option value="0"><?php echo JText::_('OBJCREATE_JOPTION_SELECT_DISTANCE');?>...</option>
+										<?php echo JHtml::_('select.options', $distances, 'value', 'text');?>
+									</select>            
+								</li>
+								<li>
+									<input placeholder="Цена от:" name="min" class="price2" type="text">
+									<input placeholder="Цена до:" name="max" class="price2" type="text">
+									<input class="date_bron" id="date_start" placeholder="Дата от:" name="date_from" type="text">
+									<input class="date_bron" id="date_end" placeholder="Дата до:" name="date_to" type="text">
+								</li>
+							</ul>
+						</div>
+						<button class="button fa fa-search" type="submit" name="submit"></button>
+										
+					</form>
+					</div>
+					<?php } ?>
 					 <?php if($this->countModules('hot')) : ?>
                             <div class="clear"></div>
                             <? if($view != "variant") : ?>

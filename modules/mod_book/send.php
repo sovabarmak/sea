@@ -10,6 +10,7 @@
         
 	if(isset($_POST['submit']) && $_POST["username"] && $_POST["phone"] && $_POST["email"]) {	
             $text .= '<strong>Имя:</strong>'.$_POST["username"].'; <br/>'.
+					'<strong>Откуда Вы приезжаете:</strong> '.$_POST["place_from"].'; <br/>'.
                      '<strong>Телефон:</strong> '.$_POST["phone"].'; <br/>'.
                      '<strong>E-mail:</strong> '.$_POST["email"].'; <br/>'.
                      '<strong>Общее кол-во человек:</strong> '.$_POST["amount-adults"].'; <br/>'.

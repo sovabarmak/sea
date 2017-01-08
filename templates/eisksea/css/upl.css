@@ -119,7 +119,7 @@ box-shadow: 0 0 15px rgba(200, 70, 70, 0.9);
 -moz-box-shadow: 0 0 15px rgba(200, 70, 70, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
 box-shadow: 0 0 15px rgba(200, 70, 70, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
 }
-#submitbtn:disabled{
+#submitbtn:disabled,#submitbtn.disabled{
   background: gray;
   color: darkgray;
   border: none;
@@ -237,4 +237,4 @@ top: 0;
 left: 0;
 }
 #agree-row label{width:auto}
-#terms-agree{top:10px;left:10px;position:relative}
+#terms-agree{top:10px;right:10px;position:relative}
