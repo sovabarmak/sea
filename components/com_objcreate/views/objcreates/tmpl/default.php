@@ -197,7 +197,7 @@ defined('_JEXEC') or die;
 				<a class="more" href="/estate/online-order.html?idd=<?php echo $item->id;?>">
 					Забронировать
 				</a>
-                <a  class="my_selection" href="<?php echo JRoute::_('index.php?option=com_objcreate&view=variant&id='.(int)$item->id); ?>">
+                <a  class="bron_but" href="<?php echo JRoute::_('index.php?option=com_objcreate&view=variant&id='.(int)$item->id); ?>">
                     <?php echo JText::_('COM_OBJCREATE_CATEGORY_BUTTS_BLOCK_MORE'); ?>
                 </a>
                 
