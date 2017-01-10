@@ -437,14 +437,14 @@ font-size:18px;
 min-width:120px;
 width:25%;
 }
-#toimg{width:2400px;position:relative;line-height:106px; padding-top:445px;font-family:Arial;color:#1e1e1e;display:none;background:#fff}
+#toimg{width:2400px;position:relative;line-height:106px; padding-top:435px;font-family:Arial;color:#1e1e1e;background:#fff;display:none}
 #toimg img{position:absolute; top:60px;}
-.toimg-cell{padding-left:104px; font-size:45px; }
+.toimg-cell{padding-left:104px; font-size:45px;width:100% }
 .cell-zag{font-weight:bold}
-.to-img-row-zag{background:#E1E1E1;padding-left:104px;font-size:50px; line-height:106px;margin-top:100px;margin-bottom:35px;text-transform:uppercase}
+.to-img-row-zag{background:#E1E1E1;padding-left:104px;font-size:50px; line-height:106px;margin-top:90px;margin-bottom:35px;text-transform:uppercase;font-weight:bold}
 .cell472{float:left; width:472px}
 .cell960{float:left; width:960px}
 .clr{clear:both}
 #total-row{margin-top:30px;font-size:52px; font-weight:bold;text-decoration:underline}
-#toimg-foot{font-size:45px;line-height:75px;padding:0 104px 0; margin-top:72px}
+#toimg-foot{font-size:45px;line-height:75px;padding:0 104px 0; margin-top:72px; padding-bottom:50px}
 #toimg-foot div{border-top:1px solid #bfbfbf;padding-top:50px}

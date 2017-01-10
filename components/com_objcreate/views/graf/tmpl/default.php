@@ -45,6 +45,7 @@ defined('_JEXEC') or die;
 		<div class="toimg-cell"><span class="cell-zag">Оплата за единицу размещения: </span><span id="bron_sum_per"></span></div>
 		<div id="period-wrapp">
 		</div>
+		<div class="clr"></div>
 		<div class="toimg-cell" id="total-row">Общая стоимость аренды:   <span id="bron_total"></span> руб</div>
 	</div>
 	<div id="toimg-foot">

@@ -587,7 +587,7 @@ window.location.reload();
 			$('#bron_time_end').text(endTime0Arr[0]+':'+endTime0Arr[1]);
 			$('#bron_days').text(days);
 			$('#bron_sum_per').text(sum_per);
-			$('#period-wrapp').html('<div class="toimg-cell">'+period1+'</div><div class="toimg-cell">'+period2+'</div><div class="toimg-cell">'+period3+'</div><div class="toimg-cell">'+period4+'</div>');
+			$('#period-wrapp').html('<div class="toimg-cell cell960"><div class="toimg-cell">'+period1+'</div><div class="toimg-cell cell">'+period2+'</div></div><div class="toimg-cell cell960"><div class="toimg-cell cell960">'+period3+'</div><div class="toimg-cell cell960">'+period4+'</div></div>');
 			$('#bron_total').text(total);
 			
 			
